@@ -29,7 +29,7 @@
           <h5 class="offcanvas-title" id="offcanvasNavbarLabel">로그인</h5>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="offcanvas-body">
+        <form class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
 
             <li class="nav-item"> <!-- 아이디 -->
@@ -47,12 +47,15 @@
             </li>
 
           </ul>
-
-          <form class="d-flex mt-3" >
+          
+          <div class="d-flex mt-3" >
+            <div class="form-floating mb-3">
+              <input type="checkbox" class="form-check-input" name="remember"> 아이디 기억하기
+            </div>
             <button class="btn btn-primary ms-auto me-3" type="submit">확인</button>
             <button class="btn btn-primary me-3" data-bs-dismiss="offcanvas" type="button">닫기</button>
-          </form>
-        </div>
+          </div>
+        </form>
       </div>
       <!-- 로그인 -->
       
@@ -62,7 +65,7 @@
           <h5 class="offcanvas-title" id="offcanvasNavbarLabel">회원가입</h5>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-        <div class="offcanvas-body">
+        <form class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 gap-2">
 
             <li class="nav-item">
@@ -84,11 +87,11 @@
               </div>
             </li>
           </ul>
-          <form class="d-flex mt-3" >
+          <div class="d-flex mt-3" >
             <button class="btn btn-primary ms-auto me-3" type="submit">가입</button>
             <button class="btn btn-primary me-3" data-bs-dismiss="offcanvas" type="button">돌아가기</button>
-          </form>
-        </div>
+          </div>
+        </form>
       </div>
       <!-- 회원가입 -->
     </div>
